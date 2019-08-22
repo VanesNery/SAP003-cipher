@@ -38,6 +38,6 @@ function encode(offset,string){
  }
    
    function decode(offset,string){
-      return encode (string,-offset);
+      return encode(-offset,string);
    }
    //Decifra (((codigoasc - cod1letra- deslo) %tamanhoDOalfabeto) + cod1letra)
