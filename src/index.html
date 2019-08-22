@@ -2,14 +2,22 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Caesar Cipher</title>
+    <title>O Imperador</title>
+    <link href="https://fonts.googleapis.com/css?family=Romanesco&display=swap" rel="stylesheet"> 
+      <h1> O Imperador</h1>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div id="root">
-      <h1>Hello world!</h1>
-    </div>
-    <script src="cipher.js"></script>
-    <script src="index.js"></script>
+    <input type="number" id="codDeslo" placeholder="Digite a Chave"/><br/>
+    <input type="text" id="Msg" placeholder="Digite o texto"/><br />
+    <input type="submit" id="btn_cifra" value="Cifrar" onclick="botao1()"/>
+    <input type="submit" id="btn_decifra" value="Decifrar" onclick="botao2()"/>
+
+  <div class="resp" id="respostaC" ></div>
+  <div class="resp1" id="respostaD"></div>
+
+    <script src="cipher.js"></script><!--Funções-->
+    <script src="index.js"></script><!--Eventos dos botões-->
+  
   </body>
 </html>

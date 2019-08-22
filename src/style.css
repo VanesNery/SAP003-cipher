@@ -1,0 +1,44 @@
+h1{
+    font-family: 'Romanesco', cursive;
+    text-align: center;
+    }
+
+    body {
+        font-family: 'Romanesco', cursive;
+        font-size: 48px;
+        text-align: center;
+      }
+     
+    .resp{
+        width: 25vw;
+        height: 25vh;
+        float:left;
+        position: absolute;               
+        top: 30%;                         
+        transform: translate(98%, 140%);
+        align-items: center;
+        justify-content: center;
+        border-style: outset;
+    }
+    .resp1{
+        width: 25vw;
+        height: 25vh;
+        float:right;
+        position: absolute;               
+        top: 30%;                         
+        transform: translate(200%, 140%);
+        align-items: center;
+        justify-content: center;
+        border-style: outset;
+        }
+
+        input[type="text"] {
+            padding: 0 400px;
+            font-family: 'Romanesco', cursive;
+            font-size: 30px;
+        }
+        input[type="number"] {
+            padding: 0 20px;
+            font-family: 'Romanesco', cursive;
+            font-size: 30px;
+        }
