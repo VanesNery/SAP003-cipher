@@ -31,7 +31,7 @@ function encode(offset,string){
             }
                   return Mssg.join("");
  }
-        
+
        function decode(offset,string){
        let Mssg=[];
           for(let i=0; i<string.length;i++){
@@ -61,3 +61,4 @@ function encode(offset,string){
             return Mssg.join("");
    }
    //Decifra (((codigoasc - cod1letra- deslo) %tamanhoDOalfabeto) + cod1letra)
+   //testando git
