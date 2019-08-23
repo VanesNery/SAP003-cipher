@@ -5,10 +5,13 @@ h1{
 
     body {
         font-family: 'Romanesco', cursive;
-        font-size: 48px;
+        font-size: 38px;
+        top: -30%;
         text-align: center;
         background-image: url(https://i.pinimg.com/originals/7c/f9/28/7cf92868b50c428c103210ae3391be02.jpg);
         background-size: cover;
+        width: 100%;
+        height: auto;
       }
      
     .resp{
@@ -21,6 +24,9 @@ h1{
         align-items: center;
         justify-content: center;
         border-style: outset;
+        overflow: hidden;
+        font-size: 25px;
+        white-space: normal;
     }
 
     .resp1{
@@ -33,18 +39,22 @@ h1{
         align-items: center;
         justify-content: center;
         border-style: outset;
+        overflow: hidden;
+        font-size: 25px;
+        white-space: normal;
         }
 
         input[type="text"] {
-            padding: 0 370px;
-            font-family: 'Romanesco', cursive;
-            font-size: 30px;
-        }
+            padding: 50px 50px 50px 50px;
+            font: 26px 'Romanesco', cursive;
+            white-space: normal;
+            }
 
         input[type="number"] {
-            padding: 0 20px;
-            font-family: 'Romanesco', cursive;
-            font-size: 30px;
+            width: 50px;
+            height: 30px;
+            font: bold 20px 'Romanesco', cursive;
+            text-align:center;	
         }
 
         .imagem{
@@ -53,6 +63,22 @@ h1{
         height: 401px;/* Faz a altura ficar igual a da altura da imagem de exemplo */    
         background-repeat: no-repeat;
         transform: translate(4%, -60%);
+        }
+
+        .btn_cifra{
+        font: bold 26px 'Romanesco', cursive;
+        width:120px;  
+        height:40px;
+        overflow: hidden;
+        background: transparent;
+        }
+
+        .btn_decifra{
+        font: bold 26px 'Romanesco', cursive;
+        width:120px;  
+        height:40px;
+        overflow: hidden;
+        background: transparent;
         }
 
         footer {
