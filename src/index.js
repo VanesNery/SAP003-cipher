@@ -13,3 +13,9 @@ function botao2(){
     let Mssg=window.cipher.decode(offset,string);
     document.getElementById("respostaD").innerHTML+= Mssg;
 }
+function limparD() {
+    document.getElementById("respostaD").innerHTML = "";
+}
+function limparC() {
+    document.getElementById("respostaC").innerHTML = "";
+}

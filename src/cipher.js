@@ -2,7 +2,7 @@ window.cipher={
    encode:encode,
    decode:decode,
 };
-//Cifra (((codigodaletra + cod1letra + deslo)%tamanhodoalfabeto) +cod1letra)
+//Cifra (((codigodaletra - cod1letra + deslo)%tamanhodoalfabeto) +cod1letra)
 function encode(offset,string){
    let Mssg=[];
        for(let i=0; i<string.length;i++){
