@@ -31,7 +31,7 @@ function encode(offset, string) {
     }
   }
   return Mssg.join("");
-} 1
+}
 
 function decode(offset, string) {
   let Mssg = [];
