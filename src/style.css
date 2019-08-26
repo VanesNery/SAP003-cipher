@@ -1,6 +1,7 @@
 h1{
     font-family: 'Romanesco', cursive;
     text-align: center;
+    font-size: 45;
     }
 
     body {
@@ -25,7 +26,7 @@ h1{
         justify-content: center;
         border-style: outset;
         overflow: hidden;
-        font-size: 25px;
+        font-size: 20px;
         white-space: normal;
     }
 
@@ -40,14 +41,17 @@ h1{
         justify-content: center;
         border-style: outset;
         overflow: hidden;
-        font-size: 25px;
+        font-size: 20px;
         white-space: normal;
         }
 
-        input[type="text"] {
+        #Msg{
+            widows: 300px;
+            height: 18px;
             padding: 50px 50px 50px 50px;
-            font: 26px 'Romanesco', cursive;
+            font: 20px 'Romanesco', cursive;
             white-space: normal;
+            overflow: hidden;
             }
 
         input[type="number"] {

@@ -15,12 +15,12 @@ function encode(offset, string) {
     }
 
     else if (letra >= 97 && letra <= 122) {
-      let message = ((letra - 97 + offset) % 26) + 97;
+      let message = (((letra - 97 + offset) % 26) + 97);
       let msg = String.fromCharCode(message);
       Mssg.push(msg);
     }
     else if (letra >= 48 && letra <= 57) {
-      let message = ((letra - 48 + offset) % 10) + 48;
+      let message = (((letra - 48 + offset) % 10) + 48);
       let msg = String.fromCharCode(message);
       Mssg.push(msg);
     }
@@ -31,7 +31,7 @@ function encode(offset, string) {
     }
   }
   return Mssg.join("");
-}
+} 1
 
 function decode(offset, string) {
   let Mssg = [];
@@ -65,4 +65,3 @@ function decode(offset, string) {
   return Mssg.join("");
 }
 //Decifra (((codigoasc - cod1letra- deslo) %tamanhoDOalfabeto) + cod1letra)
-//testando git

@@ -1,25 +1,33 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>O Imperador</title>
-    <link href="https://fonts.googleapis.com/css?family=Romanesco&display=swap" rel="stylesheet"> 
-      <h1> O Imperador</h1>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <input type="number" id="codDeslo" placeholder="Digite a Chave" size="25"/><br/>
-    <input type="text" id="Msg" placeholder="Digite o texto" size="80" /><br />
-    <input type="submit" class="btn_cifra" id="btn_cifra" value="Cifrar" />
-    <input type="submit" class="btn_decifra" id="btn_decifra" value="Decifrar" onclick="botao2()"/>
 
-  <div class="resp" id="respostaC" ></div>
+<head>
+  <meta charset="utf-8">
+  <title>O Imperador</title>
+  <link href="https://fonts.googleapis.com/css?family=Romanesco&display=swap" rel="stylesheet">
+  <h1> O Imperador</h1>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <input type="number" id="codDeslo" placeholder="Digite a Chave" /><br />
+  <textarea id="Msg" placeholder="Digite o texto"></textarea><br />
+  <!--<input type="text" id="Msg" placeholder="Digite o texto" size="80" /><br />-->
+  <input type="submit" class="btn_cifra" id="btn_cifra" value="Cifrar" />
+  <input type="submit" class="btn_decifra" id="btn_decifra" value="Decifrar" />
+
+  <div class="resp" id="respostaC"></div>
   <div class="resp1" id="respostaD"></div>
   <div class="imagem"></div>
 
-    <script src="cipher.js"></script><!--Funções-->
-    <script src="index.js"></script><!--Eventos dos botões-->
-  
-  </body>
-  <footer><p>Criando por Vanessa Nery...<br> Projeto Cifra de Cesar na Laboratoria</p></footer>
+  <script src="cipher.js"></script>
+  <!--Funções-->
+  <script src="index.js"></script>
+  <!--Eventos dos botões-->
+
+</body>
+<footer>
+  <p>Criando por Vanessa Nery...<br> Projeto Cifra de Cesar na Laboratoria</p>
+</footer>
+
 </html>
