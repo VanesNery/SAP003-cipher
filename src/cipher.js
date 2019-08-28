@@ -1,10 +1,10 @@
-window.cipher = {
+window.cipher ={
   encode: encode,
   decode: decode,
 };
 //Cifra (((codigodaletra - cod1letra + deslo)%tamanhodoalfabeto) +cod1letra)
 function encode(offset, string) {
-  let Mssg = [];
+  let Mssg =[];
   for (let i = 0; i < string.length; i++) {
     let letra = string.charCodeAt([i]);
 
@@ -19,15 +19,8 @@ function encode(offset, string) {
       let msg = String.fromCharCode(message);
       Mssg.push(msg);
     }
-    else if (letra >= 48 && letra <= 57) {
-      let message = (((letra - 48 + offset) % 10) + 48);
-      let msg = String.fromCharCode(message);
-      Mssg.push(msg);
-    }
-    else if (letra >= 0 && letra <= 47 || letra >= 56 && letra <= 64 || letra >= 91 && letra <= 96 || letra >= 123 && letra <= 255) {
-      let message = letra;
-      let msg = String.fromCharCode(message);
-      Mssg.push(msg);
+    else {
+      Mssg.push(string[i]);
     }
   }
   return Mssg.join("");
@@ -49,17 +42,8 @@ function decode(offset, string) {
       let msg = String.fromCharCode(message);
       Mssg.push(msg);
     }
-
-    else if (letra >= 48 && letra <= 57) {
-      let message = ((letra - 57 - offset) % 10) + 57;
-      let msg = String.fromCharCode(message);
-      Mssg.push(msg);
-    }
-
-    else if (letra >= 0 && letra <= 64 || letra >= 91 && letra <= 96 || letra >= 123 && letra <= 255) {
-      let message = letra;
-      let msg = String.fromCharCode(message);
-      Mssg.push(msg);
+    else {
+      Mssg.push(string[i]);
     }
   }
   return Mssg.join("");
