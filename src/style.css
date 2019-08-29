@@ -8,7 +8,7 @@ body {
     font-family: 'Romanesco', cursive;
     font-size: 38px;
     text-align: center;
-    background-image: url(/home/vanessa/SAP003-cipher/src/imagens/fundo.jpg);
+    background-image: url(src/imagens/fundo.jpg);
     background-size: cover;
     width: auto;
     height: auto;
@@ -63,7 +63,7 @@ input[type="number"] {
     }
 
 .imagem{
-    background-image: url(/home/vanessa/SAP003-cipher/src/imagens/imperador.png);
+    background-image: url(src/imagens/imperador.png);
     width: 220px;/* Faz a largura ficar igual a da largura da imagem de exemplo */
     height: 401px;/* Faz a altura ficar igual a da altura da imagem de exemplo */    
     background-repeat: no-repeat;
