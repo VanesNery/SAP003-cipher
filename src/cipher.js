@@ -32,13 +32,13 @@ function decode(offset, string) {
     let letra = string.charCodeAt([i]);
 
     if (letra >= 65 && letra <= 90) {
-      let message = ((letra - 90 - offset) % 26) + 90;
+      let message = (((letra - 90 - offset) % 26) + 90);
       let msg = String.fromCharCode(message);
       Mssg.push(msg);
     }
 
     else if (letra >= 97 && letra <= 122) {
-      let message = ((letra - 122 - offset) % 26) + 122;
+      let message = (((letra - 122 - offset) % 26) + 122);
       let msg = String.fromCharCode(message);
       Mssg.push(msg);
     }
