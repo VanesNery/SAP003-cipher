@@ -1,20 +1,19 @@
 h1{
     font-family: 'Romanesco', cursive;
     text-align: center;
-    font-size: 45;
+    font-size: 40;
     }
 
 body {
     font-family: 'Romanesco', cursive;
     font-size: 38px;
-    top: -30%;
     text-align: center;
-    background-image: url(https://i.pinimg.com/originals/7c/f9/28/7cf92868b50c428c103210ae3391be02.jpg);
+    background-image: url(/home/vanessa/SAP003-cipher/src/imagens/fundo.jpg);
     background-size: cover;
-    width: 100%;
+    width: auto;
     height: auto;
     }
-     
+
 .resp{
     width: 25vw;
     height: 25vh;
@@ -28,6 +27,7 @@ body {
     overflow: hidden;
     font-size: 30px;
     white-space: normal;
+    margin: auto;
     }
 
 .resp1{
@@ -43,6 +43,7 @@ body {
     overflow: hidden;
     font-size: 30px;
     white-space: normal;
+    margin: auto;
     }
 
 #Msg{
@@ -62,11 +63,12 @@ input[type="number"] {
     }
 
 .imagem{
-    background-image: url(https://lh3.googleusercontent.com/RtM_OtsNrXa6qDaCsB5I6w_HsrQApWCV48l5xEYUO2SkhG3IM3yunLP785NxIULWC12MgF83q0X56Xz_qf51ZxzTzCqIJfQU4b0YCz-gB9mAgY4-bcHb1S_lJPpPCXunIM_XCFskGw33R1pXeFV4cSsyQmxrCmRzPqj-HOAUmXZg6i3qtzzingK_GdKB1fjhMvvcsNPP-pRGOs56-dCdIkcgVOH9zGKSnixL4qTqf4INBBqT0A6FwrG06F_NT6kpS1n9lZdV9W_F5JBESbKUMQ-b_XpRth7P9kVnMpTuPiKhN6crf0W6s5LBYPnFqGCHGRnxcWX5L6X4V7KQp5Dcq3ZUT_RblubcfTXEcEb0qH0Q0RutcpTaLC_XxL6WrolzHBgkXEB9d0m_vpnFXW0dfRtLHVZi7ZmGRFbd_OlPJjg4HPcCo_qchiuUSstpFvsRqcP4BzZHPDpiltsRjqyPpq7_bzzquZrFZ_42mUnyifmEW8GhGrpjCAcFPJYZhAeE7W74QKFDlouEoZqEoC5CV8u9VLChYmKwTkQP14YwPVCjKXNhiwMoFzNNhysHuHIw2r08IOKJkMZ9jH9H4IKuK65RljW7LioAcebn13DTvn0wa0wT7x6EXO493KORChjlufEhStJuSQh6oPXdpESdEH-IAG15g10=w204-h400-no);
+    background-image: url(/home/vanessa/SAP003-cipher/src/imagens/imperador.png);
     width: 220px;/* Faz a largura ficar igual a da largura da imagem de exemplo */
     height: 401px;/* Faz a altura ficar igual a da altura da imagem de exemplo */    
     background-repeat: no-repeat;
     transform: translate(30%, -60%);
+    margin: 0% 25% 25% 0%;
     }
 
 .btn_cifra{
