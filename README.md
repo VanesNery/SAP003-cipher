@@ -41,19 +41,18 @@ a cifra de Vigenère, e tem aplicação no sistema ROT13.
 
 ## 2. O que é?
 
-O site foi inspirado no "Imperador" Júlio César, que foi o primeiro a se comunicar com seus generais através de mensagens codificadas.
-Nessa ideia o layout da página vem com o plano de fundo de papel antigo, e as fontes como o proprio Júlio César tivesse escrito utilizando uma pena e tinta.
+O site foi inspirado no "Imperador" Júlio César, que foi o primeiro a se comunicar com seus generais através de mensagens codificadas. Nessa ideia o layout da página vem com o plano de fundo de papel antigo, e as fontes como o próprio Júlio César tivesse escrito utilizando uma pena e tinta.
 
 ## 3. Como funciona
 
-Nesse site o usuario vai usufruir dessa criatividade para codificar e descodificar a mensagem, o mesmo pode escolher o numero de posição das letras.
+Nesse site o usuário vai usufruir dessa criatividade para codificar e descodificar a mensagem, o mesmo pode escolher o numero de posição das letras.
 
 ## 4. Como utilizar
 
-Basta o usuario escolher a chave para determinar a posição que as letras vão caminhar, depois inserir a mensagem e clicar no botão "Cifrar".
-Para descodificar, o usuario vai inserir a mesma chave escolhida no momento da cifragem e a mensagem codificada, posteriormente clicar no botão "Decifrar".
+Basta o usuário escolher a chave para determinar a posição que as letras vão caminhar, depois inserir a mensagem e clicar no botão "Cifrar".
+Para descodificar, o usuário vai inserir a mesma chave escolhida no momento da cifragem e a mensagem codificada, posteriormente clicar no botão "Decifrar".
 
-LEMBRANDO: somente as letras maiusculas e minusculas, os demais caracteres serão apresentados.
+LEMBRANDO: somente as letras maiúsculas e minusculas serão codificados, os demais caracteres permaneceram apresentados.
 
 ## 5. O que foi utilizado no projeto
 
@@ -64,5 +63,7 @@ LEMBRANDO: somente as letras maiusculas e minusculas, os demais caracteres serã
 ## 6. Foto da Página
 
 ![Página](src/O%20imperador.png)
+
 ## 7. Link da Página
+
 https://vanesnery.github.io/SAP003-cipher/src/index.html

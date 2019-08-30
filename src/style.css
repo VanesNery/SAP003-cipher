@@ -1,92 +1,133 @@
 h1{
-    font-family: 'Romanesco', cursive;
-    text-align: center;
-    font-size: 40;
-    }
+  font-family: 'Romanesco', cursive;
+  text-align: center;
+  font-size: 40;
+  }
 
 body {
-    font-family: 'Romanesco', cursive;
-    font-size: 38px;
-    text-align: center;
-    background-image: url(../src/imagens/fundo.jpg);
-    background-size: cover;
-    width: auto;
-    height: auto;
-    }
+  font-family: 'Romanesco', cursive;
+  font-size: 38px;
+  text-align: center;
+  background-image: url(../src/imagens/fundo.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  }
+
+.Pai{
+  width: auto;
+  height: 500px;
+  float: center;
+  min-width: 500px;
+  max-width: auto;
+}
 
 .resp{
-    width: 25vw;
-    height: 25vh;
-    float:left;
-    position: absolute;               
-    top: 30%;                         
-    transform: translate(98%, 140%);
-    align-items: center;
-    justify-content: center;
-    border-style: outset;
-    overflow: hidden;
-    font-size: 30px;
-    white-space: normal;
-    margin: auto;
-    }
+  width: 25vw;
+  height: 25vh;
+  float:left;
+  position: absolute;               
+  top: 30%;                         
+  transform: translate(98%, 140%);
+  align-items: center;
+  border-style: outset;
+  overflow: hidden;
+  font-size: 30px;
+  white-space: normal;
+  margin: auto;
+  }
 
 .resp1{
-    width: 25vw;
-    height: 25vh;
-    float:right;
-    position: absolute;               
-    top: 30%;                         
-    transform: translate(200%, 140%);
-    align-items: center;
-    justify-content: center;
-    border-style: outset;
-    overflow: hidden;
-    font-size: 30px;
-    white-space: normal;
-    margin: auto;
-    }
+  width: 25vw;
+  height: 25vh;
+  float:right;
+  position: absolute;               
+  top: 30%;                         
+  transform: translate(200%, 140%);
+  align-items: center;
+  border-style: outset;
+  overflow: hidden;
+  font-size: 30px;
+  white-space: normal;
+  margin: auto;
+  }
 
 #Msg{
-    width: 500px;
-    height: 30px;
-    padding: 50px 50px 50px 50px;
-    font: bold 30px 'Romanesco', cursive;
-    white-space: normal;
-    overflow: hidden;
-    }
+  width: 500px;
+  height: 30px;
+  padding: 50px 50px 50px 50px;
+  font: bold 30px 'Romanesco', cursive;
+  white-space: normal;
+  overflow: hidden;
+  transform: translate(0%, -15%);
+  }
 
 input[type="number"] {
-    width: 95px;
-    height: 30px;
-    font: bold 20px 'Romanesco', cursive;
-    text-align:center;	
-    }
-
-.imagem{
-    background-image: url(../src/imagens/imperador.png);
-    width: 220px;/* Faz a largura ficar igual a da largura da imagem de exemplo */
-    height: 401px;/* Faz a altura ficar igual a da altura da imagem de exemplo */    
-    background-repeat: no-repeat;
-    transform: translate(30%, -60%);
-    margin: 0% 25% 25% 0%;
-    }
+  width: 95px;
+  height: 30px;
+  font: bold 20px 'Romanesco', cursive;
+  text-align:center;
+  transform: translate(10%, -70%);
+  }
 
 .btn_cifra{
-    font: 26px 'Romanesco', cursive;
-    width:120px;  
-    height:40px;
-    overflow: hidden;
-    background: transparent;
-    }
+  font: 26px 'Romanesco', cursive;
+  width:120px;  
+  height:40px;
+  overflow: hidden;
+  background: transparent;
+  transform: translate(17%, 30%);
+  }
 
 .btn_decifra{
-    font: 26px 'Romanesco', cursive;
-    width:120px;  
-    height:40px;
-    overflow: hidden;
-    background: transparent;
-    }
+  font: 26px 'Romanesco', cursive;
+  width:120px;  
+  height:40px;
+  overflow: hidden;
+  background: transparent;
+  transform: translate(19%, 27%);
+  }
+
+#imagem{
+  position: absolute;
+  left: 90px; /* posiciona a 90px para a esquerda */ 
+  top: 180px; /* posiciona a 70px para baixo */
+}
 
 footer {
-    font-size: 25px;
-    }
+  font-size: 20px;
+  }
+
+@media (max-width: 500px) {
+  .resp1{
+  width: 35vw;
+  height: 25vh;
+  transform: translate(295px, 240px);
+  }
+
+  .resp{
+  width: 35vw;
+  height: 25vh;
+  transform: translate(80px, 240px);
+  }
+    
+  #imagem{
+  left: 8px;
+  top: 180px;
+  width: 180px;
+  height: 190px;
+  }
+
+  #Msg{
+  width: 90px;
+  height: 50px;
+  transform: translate(30px, -15px);
+  }
+  
+  .btn_cifra{
+  transform: translate(14%, -40%);
+  }
+
+  .btn_decifra{
+  transform: translate(19%, -40%);
+  }
+}
